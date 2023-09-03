@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!--lingua--> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css"> <!--puxar as informações do css--> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100;0,400;1,100;1,400&family=Tourney&display=swap" rel="stylesheet">
+    
+    <title>Leonardo Freire</title> <!--como aparece na parte superior--> 
+
+</head>
+<body>
+    <div class="caixa-principal" id="home"><!--quando coloco classe, posso ir no css e estilizar-->
+        <nav> <!--menu dentro do site--> 
+            <h2 class="meu-portfolio">Port<span>folio</span></h2> <!--a tag span só serve como seleção-->
+            <ul>
+                <li><a class="link-menu" href="#home">Home</a></li>
+                <li><a class="link-menu" href="#sobre-mim">Sobre Mim</a></li> <!--o <a> serve para colocar o link-->
+                <li><a class="link-menu" href="serviços">Serviços</a></li>
+                <li><a class="link-menu" href="#projetos-id">Projetos</a></li>
+                <li><a class="link-menu" href="#fale-comigo">Fale comigo</a></li>
+            </ul>    
+        </nav>
+
+        <div class="meu-nome">
+            <h1>Leonardo <span>Freire</span></h1>
+            <h3>Programador <span>Full Stack</span></h3>
+        </div>
+    </div>
+
+    <section id="sobre-mim"> <!--igual a div, sendo apenas mais uma sessão do site-->
+        <img src="./public/images/artigos.png">
+        <div>
+            <h2>Sobre Mim</h2>
+            <p>Doutor em Biotecnologia pela Universidade Federal do Ceará
+                (UFC) e Acadêmico do 4º Semestre de Ciências da Computação
+                pelo Centro Universitário Estácio/Ce, Possuo conhecimento básico
+                em programação com C++, Java, HTML, CSS e MySQL. Desenvolvi
+                conhecimento básico em Engenharia de Software (Diagramas de
+                UML e Métodos Ágeis) e Análise de Testes de Software. Além disso,
+                sou o criador do Canal Jaleco Digital, onde compartilho
+                conhecimentos e reflexões sobre assuntos da área de atuação.</p>
+            <button>Entre em contato</button> <!--pode usar botão para criar conexão-->
+        </div>
+    </section>
+
+    <div class="projetos" id="projetos-id"> 
+        <h2> Principais Projetos</h2>
+
+        <div class="card-projetos">
+
+        <div class="card">
+            <img src="./public/images/jalecodigital.png"> 
+            <h5>Jaleco Digital</h5>
+            <p>Bem-vindo ao Jaleco Digital! Nosso projeto foi criado com o propósito de compartilhar conhecimentos sobre saúde e qualidade de vida, trazendo dicas e informações relevantes para o seu bem-estar. Acompanhe-nos nessa jornada de cuidado com o corpo e mente. </p>
+            <a href="https://instagram.com/jalecodigitaloficial?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D" target="_blank">Ver Projeto</a>
+        <!--target serve para abrir em uma nova página-->
+        </div>
+
+        <div class="card">
+            <img src="./public/images/computador/computer-g506f83670_1280.jpg"> 
+            <h5>Publicações</h5>
+            <p>Série de Artigos Científicos produzidos pelo laboratório de Neuropsicofarmacologia do NPDM. Acompanhe as atualizações. </p>
+            <a href="https://1drv.ms/f/s!AonHW0Al--DAhrdFiVGtotGFEAMOdg?e=MwurGM" target="_blank">Ver Projeto</a>
+        </div>
+
+        <div class="card">
+            <img src="./public/images/projetoselemento-removebg-preview.png"> 
+            <h5>Outros</h5>
+            <p>Encontraremos projetos que estão no início do desenvolvimento.</p>
+            <a>Ver Projeto</a>
+        </div>
+        
+    </div>
+
+    <footer id="fale-comigo"> <!-- mesma coisa que a div, porém é usada no roda pé-->
+        <h5>Leonardo Freire</h2>
+        <p>Para mais informações</p>
+        <div class="social">
+            <a>
+                <img src="./public/images/linkedin/linkedin-logo-linkedin-icon-transparent-free-png.webp">
+            </a>
+
+            <a>
+                <img src="./public/images/instagram/instagram-colorido.png">
+            </a>
+
+            <a href="+5585985449394">
+                <img src="./public/images/whatsapp/whatsapp_1-removebg-preview (2).png">
+            </a>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

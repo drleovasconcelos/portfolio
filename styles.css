@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Grandstander', sans-serif;
+}
+
+.caixa-principal {
+    background-image: url(./img/workspace-g4f0df93c5_1280.jpg);
+    background-color: #191919;
+    background-size: cover; /*ocupa todo o espaço da tela*/
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}  
+
+nav { /*ajuste dos botões*/ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+
+.meu-portfolio {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-weight: 500px; /*grossura da fonte*/ 
+}
+
+.meu-portfolio span {
+    color: #f9004d;
+}
+
+.link-menu {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    color: white;
+    list-style: none; /*sumir os pontos*/
+    display: inline-block;   /*um do lado do outro*/
+    font-size: 16px;  /*tamanho da fonte*/
+    margin-right: 30px; /*separar os botões*/
+    cursor: pointer; /*mudar o mouse para a mãozinha*/
+}
+
+li:hover {
+    color: #f9004d; /* o botão vai mudar de cor fazendo uma transição*/
+    transition: 0.5s;
+}
+
+.meu-nome {
+    position: absolute; /*permite que eu coloque o objeto aonde eu quiser*/ 
+    top: 50%;
+    left: 10%;
+
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+}
+
+h1 span {
+    color: #f9004d;
+}
+
+.meu-nome h3 {
+    color: white;
+}
+
+h3 span {
+    color: #f9004d;
+}
+
+section {
+    display: flex; /*permite que eu coloque o objeto isolado um do outro, evitando agrupamento*/
+    align-items: center;
+    padding: 30px 20px;/*espaçamento interno*/
+    background-color: black;
+    
+}
+
+section img{
+    height: 300px;
+    border-radius: 100%; /*aredondando a foto*/
+    border: 2px solid #f9004d;
+    margin-right: 30px;
+}
+
+section div h2 {
+    color: white;
+    font-size: 50px;
+    text-align: justify;
+}
+
+section div p {
+    color: white;
+    font-size: 30px;
+    margin-top: 30px; /*distância em cima*/
+    margin-bottom: 30px; /*distência em baixo*/
+    
+}
+
+section div button {
+    color: white;
+    background: #f9004d;
+    height: 30px;
+    width: 156px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+section div button:hover {  /*momento que passa o mouse*/
+    background-color: black;
+    border: 2px solid #f9004d;
+    transition: 0.5s;
+}
+
+.projetos {
+    background-color: #191919;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.projetos h2 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+.card {
+    background-color: black;
+    height: 400px;
+    width: 320px;
+    border-radius: 20px;
+    padding: 25px 35px;
+    text-align: center;
+}
+
+.card img {
+    height: 100px;
+}
+
+.card h5 {
+    color: white;
+    font-size: 25px;
+}
+
+.card p {
+    color: #f9004d;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card a { /*carateristicas do botão*/
+    background-color: #f9004d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none; /*tirar o sublinhado*/
+}
+
+.card a:hover { /*trasnição do botão para ficar transparente*/
+    background-color: transparent;
+    border: 2px solid #f9004d;
+}
+
+.card-projetos
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+footer {
+    background-color: black;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+
+footer h5 {
+    color: white;
+    font-size: 30px;
+}
+
+footer p {
+    color:white;
+    font-size: 20x;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+.social img {
+    height: 40px;
+    border-radius: 50%;
+}
+
+.social a{
+    background-color: #f8f5f7;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.social a:hover{
+    transform: scale(1.3); /*aumenta de tamanho*/
+    transition: 0.5s;
+}
+    
